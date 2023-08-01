@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body {
+	width : 1040px;
+}
+.fl {
+	float:left;
+}
+.fr {
+	float:right;
+}
+td {
+	text-align: center;
+}

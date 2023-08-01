@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+	width : 1040px;
+}
+.fl {
+	float:left;
+}
+.fr {
+	float:right;
+}
+table, tr, td, th {
+	border-collapse: collapse;
+	border: 1px solid black;
+	padding : 2px 15px;
+	text-align: center;
+}
