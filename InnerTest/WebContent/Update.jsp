@@ -5,11 +5,6 @@
 <% 
 	MemberDao memberDao = new MemberDao();
 	String id = request.getParameter("id");
-	if(id==null) {
-		id="thfgml";
-	}else {
-		id = request.getParameter("id");
-	}
 	MemberDto memberDto = memberDao.select1(id);
 %>
 <!DOCTYPE html>
